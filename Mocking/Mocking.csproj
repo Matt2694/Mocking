@@ -58,11 +58,16 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Employee.cs" />
     <Compile Include="IEmployeeRepository.cs" />
     <Compile Include="ILoginModule.cs" />
     <Compile Include="IMailModule.cs" />
+    <Compile Include="Mail.cs" />
+    <Compile Include="MailBox.cs" />
     <Compile Include="MockTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rights.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
